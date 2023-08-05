@@ -1,14 +1,20 @@
-curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001816319755", "text": "This is a test from qa.guru", "disable_notification": true}' https://api.telegram.org/bot5942309005:AAGvk-onhTWBzgxu4mEfWb5mS8hVmT3Q-JQ/sendMessage
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "6556216349", "text": "This is a test from qa.guru", "disable_notification": true}' https://api.telegram.org/bot6556216349:AAHsZmf0kGYKM1QN37h-gUz528gylSQhODg/sendMessage
 
 curl -X POST \
      -H 'Content-Type: application/json' \
-     -d '{"chat_id": "-1001816319755", "text": "This is a test from qa.guru", "disable_notification": true}' \
-     https://api.telegram.org/bot5942309005:AAGvk-onhTWBzgxu4mEfWb5mS8hVmT3Q-JQ/sendMessage
+     -d '{"chat_id": "6556216349", "text": "This is a test from qa.guru", "disable_notification": true}' \
+     https://api.telegram.org/bot6556216349:AAHsZmf0kGYKM1QN37h-gUz528gylSQhODg/sendMessage
 
 
 
 telegram token: 5942309005:AAGvk-onhTWBzgxu4mEfWb5mS8hVmT3Q-JQ
 telegram chat: -1001816319755
+
+token 6556216349:AAHsZmf0kGYKM1QN37h-gUz528gylSQhODg
+id 6556216349
+
+
+
 
 
 curl https://api.telegram.org/bot5942309005:AAGvk-onhTWBzgxu4mEfWb5mS8hVmT3Q-JQ/getUpdates | jq .message.chat.id
